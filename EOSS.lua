@@ -19,8 +19,8 @@ game.Lighting.OutdoorAmbient = Color3.new(0.15686274509, 0.1725490196, 0.1764705
 game.Lighting.ClockTime = 17 
 game.Lighting.ExposureCompensation = 0.5
 
-game:GetObjects("rbxassetid://12340491939")[1].Parent = game.Lighting
+game:GetObjects("rbxassetid://12340491939")[1].Parent = game.Lighting --skybox
 
-game:GetObjects("rbxassetid://12340710632")[1].Parent = game.Lighting
+game:GetObjects("rbxassetid://12340710632")[1].Parent = game.Lighting --atmosphere
 
-game:GetObjects("rbxassetid://12340714911")[1].Parent = game.Lighting
+game:GetObjects("rbxassetid://12340714911")[1].Parent = game.Lighting --colorcorrection
